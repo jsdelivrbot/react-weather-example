@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# React Weather Example
 
 Following Stephen Grider's React/Redux Udemy course: [React and Redux](https://www.udemy.com/react-redux/)?
 
@@ -8,6 +8,11 @@ Following Stephen Grider's React/Redux Udemy course: [React and Redux](https://w
 > npm install
 > npm start
 ```
+
+You will also need to add API keys to the .env file for:
+
+- Google Maps (get a key here: http://console.developers.google.com)
+- Open Weather Maps (get a key here: https://openweathermap.org/api)
 
 ## Updating .env file
 
