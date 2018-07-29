@@ -1,3 +1,22 @@
-table.weather-list{
+table.weather-list svg {
+  height: 100px;
+}
+
+table.weather-list {
   table-layout: fixed;
+}
+
+table.weather-list td,
+table.weather-list th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.google-map {
+  height: 200px;
+  width: 250px;
 }
