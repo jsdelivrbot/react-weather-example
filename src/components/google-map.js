@@ -19,4 +19,13 @@ class GoogleMap extends Component {
   }
 }
 
+export function addGoogleMapsScripts() {
+  const gmaps = document.createElement('script');
+  gmaps.setAttribute(
+    'src',
+    `https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_API_KEY}`
+  );
+  document.head.appendChild(gmaps);
+}
+
 export default GoogleMap;
